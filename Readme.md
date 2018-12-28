@@ -40,9 +40,9 @@ installing visual basic 6.0 or later
 
 * Take a look of the working project demonstration executed on windows 7 operating system
 
-```
-[![Basics of VB](https://lh4.googleusercontent.com/gBBEgGgC0zepGSaraGaNvt5fBiPWNkKfebAgZYdL-N_m0IFQt8zX_xRKK4AF_yz9WB5bigstoADqgDQmTbJA=w1280-h720-n-k-rw)](https://drive.google.com/open?id=1R2yXXrKPfsx81yPsBzd_PrpRRCp9dnJB)
-``` 
+
+[![Basics of VB](https://lh4.googleusercontent.comgBBEgGgC0zepGSaraGaNvt5fBiPWNkKfebAgZYdL-N_m0IFQt8zX_xRKK4AF_yz9WB5bigstoADqgDQmTbJA=w1280-h720-n-k-rw)](https://drive.google.com/open?id=1R2yXXrKPfsx81yPsBzd_PrpRRCp9dnJB)
+
 
 ## Authors
 
