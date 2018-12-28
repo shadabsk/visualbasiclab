@@ -1,0 +1,252 @@
+Dim a As String
+'this is comment
+
+Private Sub Command1_Click()
+Text3.Enabled = True
+Text3.Text = Val(Text3.Text)
+End Sub
+
+Private Sub Command10_Click()
+num = 5
+
+While (num <= 50)
+
+Print num
+num = num + 5
+Wend
+End Sub
+
+Private Sub Command11_Click()
+num = 6
+
+While (num <= 60)
+
+Print num
+num = num + 6
+Wend
+End Sub
+
+Private Sub Command12_Click()
+num = 7
+
+While (num <= 70)
+
+Print num
+num = num + 7
+Wend
+End Sub
+
+Private Sub Command13_Click()
+num = 8
+
+While (num <= 80)
+
+Print num
+num = num + 8
+Wend
+End Sub
+
+Private Sub Command14_Click()
+num = 9
+
+While (num <= 90)
+
+Print num
+num = num + 9
+Wend
+End Sub
+
+Private Sub Command15_Click()
+num = 10
+
+While (num <= 100)
+
+Print num
+num = num + 10
+Wend
+End Sub
+
+Private Sub Command16_Click()
+num = 3
+
+While (num <= 30)
+
+Print num
+num = num + 3
+Wend
+End Sub
+
+Private Sub Command17_Click()
+num = 1
+Do
+Print num
+num = num + 1
+Loop While (num <= 10)
+End Sub
+
+Private Sub Command18_Click()
+End
+End Sub
+
+Private Sub Command19_Click()
+Dim str As String
+Dim Length As Integer
+str = Text5.Text
+Length = Len(str)
+Text4.Text = Length
+End Sub
+
+Private Sub Command2_Click()
+Text3.Text = Val(Text1.Text) + Val(Text2.Text)
+End Sub
+
+Private Sub Command20_Click()
+Dim num As Integer
+Dim r As Integer
+num = Val(Text6.Text)
+r = Sqr(num)
+Text7.Text = r
+End Sub
+
+Private Sub Command21_Click()
+Text8.Text = Date
+End Sub
+
+Private Sub Command22_Click()
+starttime = Now
+Timer3.Enabled = True
+lblstart.Caption = Time
+End Sub
+
+Private Sub Command23_Click()
+Timer3.Enabled = False
+End Sub
+
+Private Sub Command24_Click()
+richtextbox.Enabled = True
+End Sub
+
+Private Sub Command25_Click()
+richtextbox.Enabled = False
+End Sub
+
+Private Sub Command3_Click()
+Text3.Text = Val(Text1.Text) - Val(Text2.Text)
+End Sub
+
+Private Sub Command4_Click()
+Text3.Text = Val(Text1.Text) * Val(Text2.Text)
+End Sub
+
+Private Sub Command5_Click()
+Text3.Text = Val(Text1.Text) / Val(Text2.Text)
+End Sub
+
+Private Sub Command6_Click()
+Text3.Text = Val(Text1.Text) Mod Val(Text2.Text)
+End Sub
+
+Private Sub Command7_Click()
+Text3.Text = disabled
+Text1.Text = disabled
+Text2.Text = disabled
+End Sub
+
+Private Sub Command8_Click()
+num = 2
+
+While (num <= 20)
+
+Print num
+num = num + 2
+Wend
+End Sub
+
+Private Sub Command9_Click()
+num = 4
+
+While (num <= 40)
+
+Print num
+num = num + 4
+Wend
+End Sub
+
+Private Sub Copy_Click()
+a = richtextbox.SelText
+End Sub
+
+Private Sub Cut_Click()
+a = richtextbox.SelText
+richtextbox.SelText = Replace(richtextbox.SelText, a, "")
+End Sub
+
+Private Sub Dir1_Change()
+File1.Path = Dir1.Path
+End Sub
+
+Private Sub Drive1_Change()
+Dir1.Path = Drive1.Drive
+End Sub
+
+Private Sub Exit_Click()
+End
+End Sub
+
+Private Sub File1_Click()
+Image1.Picture = LoadPicture(File1.Path & "/" & File1.FileName)
+End Sub
+
+Private Sub Form_Load()
+Timer3.Enabled = False
+End Sub
+
+Private Sub Label2_Click()
+num = InputBox("enter any number")
+If num < 0 Then
+Print "Negative"
+Else
+Print "Positive"
+End If
+
+
+
+
+
+
+
+End Sub
+
+Private Sub Paste_Click()
+richtextbox.Text = richtextbox.Text + a
+End Sub
+
+Private Sub Timer1_Timer()
+If Shape4.Visible = True Then
+Shape5.Visible = True
+Shape6.Visible = False
+Shape4.Visible = False
+ElseIf Shape5.Visible = True Then
+Shape6.Visible = True
+Shape4.Visible = False
+Shape5.Visible = False
+ElseIf Shape6.Visible = True Then
+Shape4.Visible = True
+Shape5.Visible = False
+Shape6.Visible = False
+End If
+End Sub
+
+Private Sub Timer2_Timer()
+If (Shape5.Visible = True Or Shape6.Visible = True) Then
+Shape7.Left = Shape7.Left + 20
+ElseIf (Shape4.Visible = True) Then
+Shape7.Left = Shape7.Left + 0
+End If
+
+
+End Sub
+
+Private Sub Timer3_Timer()
+lblstop.Caption = Format$(Now - starttime, "hh:mm:ss")
+End Sub
