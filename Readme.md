@@ -41,7 +41,7 @@ installing visual basic 6.0 or later
 * Take a look at the working project demonstration executed on windows 7 operating system
 
 
-[![Basics of VB](https://i.ibb.co/YRbbXbc/Demonstrations.jpg)](https://drive.google.com/open?id=1R2yXXrKPfsx81yPsBzd_PrpRRCp9dnJB)
+[![Basics of VB](https://i.ytimg.com/vi/xagY-4z9M-E/hqdefault.jpg)](https://youtu.be/xagY-4z9M-E)
 
 
 ## Authors
